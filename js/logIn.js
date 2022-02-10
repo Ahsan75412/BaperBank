@@ -1,3 +1,4 @@
+//1st page user and mail validation here!!
 
 document.getElementById('login-submit').addEventListener('click' , function(){
     //get user email
@@ -11,4 +12,6 @@ document.getElementById('login-submit').addEventListener('click' , function(){
     if(userEmail == 'ahsan@gmail.com' && userPassword == 'secret'){
        window.location.href = 'banking.html';
     }
-})
+});
+
+
